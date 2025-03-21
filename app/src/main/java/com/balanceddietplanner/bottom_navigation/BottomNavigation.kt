@@ -56,11 +56,11 @@ fun BottomNavigation(
                     )
                 },
                 colors = NavigationBarItemDefaults.colors(
-                    selectedIconColor = AppGreen, // Цвет иконки при выборе
-                    unselectedIconColor = Color.Gray, // Цвет иконки без выбора
-                    selectedTextColor = AppGreen, // Цвет текста при выборе
-                    unselectedTextColor = Color.Gray, // Цвет текста без выбора
-                    indicatorColor = Color.Transparent // Цвет фона выделенного элемента
+                    selectedIconColor = AppGreen,
+                    unselectedIconColor = Color.Gray,
+                    selectedTextColor = AppGreen,
+                    unselectedTextColor = Color.Gray,
+                    indicatorColor = Color.Transparent
                 )
 
             )
