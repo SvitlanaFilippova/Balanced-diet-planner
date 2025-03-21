@@ -4,7 +4,6 @@
 
 
 
-<details>
 <summary>Используемые инструменты и технологии</summary>
 
 | Технологии                   |
@@ -20,7 +19,6 @@
 | SafeArgs                     |
 | Jetpack Navigation Component |
 
-</details>`
 
 <details>
 <summary>Возможности приложения</summary>
