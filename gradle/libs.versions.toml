@@ -18,6 +18,7 @@ safeargs = "2.8.9"
 ksp = "2.1.10-1.0.31"
 navigationCompose = "2.8.9"
 
+
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
 junit = { group = "junit", name = "junit", version.ref = "junit" }
