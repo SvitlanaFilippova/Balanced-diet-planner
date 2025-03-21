@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Balanced diet planner</string>
+    <string name="bottom_nav_diary">Дневник</string>
+    <string name="bottom_nav_meal_list">Меню</string>
+    <string name="bottom_nav_stats">Статистика</string>
+    <string name="bottom_nav_plan">Планировать</string>
+    <string name="bottom_nav_profile">Профиль</string>
 </resources>
