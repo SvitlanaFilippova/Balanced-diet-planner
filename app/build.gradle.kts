@@ -59,8 +59,8 @@ dependencies {
     ksp(libs.androidx.room.compiler)
 
     // Navigation
-    implementation(libs.androidx.navigation.fragment.ktx)
     implementation(libs.androidx.navigation.ui.ktx)
+    implementation(libs.androidx.navigation.compose)
 
     // Retrofit
     implementation(libs.retrofit)
