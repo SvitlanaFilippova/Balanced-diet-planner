@@ -10,6 +10,7 @@ import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
+import com.balanceddietplanner.ui.theme.Dimens
 
 @Preview
 @Composable
@@ -20,9 +21,12 @@ fun DiaryScreen() {
     Column(
         modifier = Modifier.fillMaxSize(),
         horizontalAlignment = Alignment.CenterHorizontally,
-        verticalArrangement = Arrangement.Top
+        verticalArrangement = Arrangement.Center
     ) {
-        Text("Hello world")
+        Text(
+            text = "DiaryScreen",
+            fontSize = Dimens.TextBig24
+        )
 //        when (state) {
 //            is HomeState.Loading -> CircularProgressIndicator()
 //            is HomeState.Content -> Button(onClick = { navController.navigate("details") }) {

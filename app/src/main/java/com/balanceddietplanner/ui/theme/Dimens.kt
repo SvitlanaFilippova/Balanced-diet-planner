@@ -16,6 +16,9 @@ object Dimens {
     val TextRegular16 = 16.sp
     val TextBig24 = 24.sp
 
-    //Elevation
-    val Elevation8 = 8.dp
+    //BottomBar
+    val BottomBarElevation8 = 8.dp
+    val BottomBarHeight80 = 80.dp
+    val BottomBarIconUnselected24 = 24.dp
+    val BottomBarIconSelected28 = 28.dp
 }
