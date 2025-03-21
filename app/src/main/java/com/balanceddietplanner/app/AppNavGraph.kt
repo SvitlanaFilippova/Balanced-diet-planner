@@ -5,11 +5,11 @@ import androidx.compose.ui.Modifier
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
-import com.balanceddietplanner.ui.screens.food_diary.DiaryScreen
-import com.balanceddietplanner.ui.screens.meal_list.MealListScreen
-import com.balanceddietplanner.ui.screens.plan.PlanScreen
-import com.balanceddietplanner.ui.screens.profile.ProfileScreen
-import com.balanceddietplanner.ui.screens.stats.StatsScreen
+import com.balanceddietplanner.ui.screen.food_diary.DiaryScreen
+import com.balanceddietplanner.ui.screen.meal_list.MealListScreen
+import com.balanceddietplanner.ui.screen.plan.PlanScreen
+import com.balanceddietplanner.ui.screen.profile.ProfileScreen
+import com.balanceddietplanner.ui.screen.stats.StatsScreen
 import com.balanceddietplanner.utils.Constants.DIARY
 import com.balanceddietplanner.utils.Constants.MEAL_LIST
 import com.balanceddietplanner.utils.Constants.PLAN
