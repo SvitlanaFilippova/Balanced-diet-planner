@@ -4,10 +4,12 @@ import android.content.Context
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
+import com.balanceddietplanner.data.meal_list.dao.MealDao
+import com.balanceddietplanner.data.meal_list.entity.MealEntity
 
-@Database(entities = [YourEntity::class], version = 1, exportSchema = false)
+@Database(entities = [MealEntity::class], version = 1, exportSchema = false)
 abstract class AppDatabase : RoomDatabase() {
-    abstract fun yourDao(): YourDao
+    abstract fun mealDao(): MealDao
 
     companion object {
         fun getDatabase(context: Context): AppDatabase {

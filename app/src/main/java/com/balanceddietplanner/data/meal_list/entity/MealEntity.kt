@@ -11,80 +11,80 @@ data class MealEntity(
     val id: String,
 
     @ColumnInfo(name = "Завтрак")
-    val breakfast: String,
+    val breakfast: String?,
 
     @ColumnInfo(name = "Обед")
-    val lunch: String,
+    val lunch: String?,
 
     @ColumnInfo(name = "Ужин")
-    val dinner: String,
+    val dinner: String?,
 
     @ColumnInfo(name = "Перекус")
-    val snack: String,
+    val snack: String?,
 
     @ColumnInfo(name = "Название")
-    val name: String,
+    val name: String?,
 
     @ColumnInfo(name = "Иконки")
-    val icons: String,
+    val icons: String?,
 
     @ColumnInfo(name = "Игредиенты")
-    val ingredients: String,
+    val ingredients: String?,
 
     @ColumnInfo(name = "Способ приготовления")
-    val cookingMethod: String,
+    val cookingMethod: String?,
 
     @ColumnInfo(name = "На сколько раз готовлю")
-    val servings: String,
+    val servings: String?,
 
     @ColumnInfo(name = "Станд. порция")
-    val standardPortion: String,
+    val standardPortion: String?,
 
     @ColumnInfo(name = "Единица измерения")
-    val unit: String,
+    val unit: String?,
 
     @ColumnInfo(name = "Ккал")
-    val calories: String,
+    val calories: String?,
 
     @ColumnInfo(name = "Б")
-    val protein: String,
+    val protein: String?,
 
     @ColumnInfo(name = "Ж")
-    val fat: String,
+    val fat: String?,
 
     @ColumnInfo(name = "У")
-    val carbs: String,
+    val carbs: String?,
 
     @ColumnInfo(name = "Много белка")
-    val highProtein: String,
+    val highProtein: String?,
 
     @ColumnInfo(name = "Злаковые")
-    val grains: String,
+    val grains: String?,
 
     @ColumnInfo(name = "Овощи")
-    val vegetables: String,
+    val vegetables: String?,
 
     @ColumnInfo(name = "Рыба")
-    val fish: String,
+    val fish: String?,
 
     @ColumnInfo(name = "Первое")
-    val firstCourse: String,
+    val soup: String?,
 
     @ColumnInfo(name = "Картофель")
-    val potatoes: String,
+    val potatoes: String?,
 
     @ColumnInfo(name = "Яйца")
-    val eggs: String,
+    val eggs: String?,
 
     @ColumnInfo(name = "Фрукты")
-    val fruits: String,
+    val fruits: String?,
 
     @ColumnInfo(name = "Творог")
-    val cottageCheese: String,
+    val cottageCheese: String?,
 
     @ColumnInfo(name = "Самодостаточное блюдо")
-    val selfContainedDish: String,
+    val selfContainedDish: String?,
 
     @ColumnInfo(name = "Гарнир")
-    val sideDish: String
+    val sideDish: String?
 )
