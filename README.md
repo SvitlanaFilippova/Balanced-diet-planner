@@ -11,8 +11,8 @@
 |------------------------------|
 | MVI                          | 
 | Jetpack Compose              |
-| Hilt                         |
-| StateFlow                    |   
+| StateFlow                    |
+| Koin                         |   
 | Gson                         | 
 | Retrofit2                    | 
 | Kotlin Coroutines            |
