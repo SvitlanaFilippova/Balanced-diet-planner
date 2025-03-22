@@ -10,7 +10,7 @@
 |------------------------------|
 | MVI                          | 
 | Jetpack Compose              |
-| Hilt                         |
+| Koin                         |
 | StateFlow                    |   
 | Gson                         | 
 | Retrofit2                    | 
