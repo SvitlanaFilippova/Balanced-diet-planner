@@ -1,6 +1,6 @@
-package com.balanceddietplanner.data.model
+package com.balanceddietplanner.domain.model
 
-data class MealDto(
+data class Meal(
     val id: String,
     val name: String,
     val ingredients: String,

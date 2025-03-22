@@ -9,13 +9,11 @@ import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.tooling.preview.Preview
 import com.balanceddietplanner.ui.theme.Dimens
+import org.koin.androidx.compose.koinViewModel
 
-@Preview
 @Composable
-fun DiaryScreen() {
-    val viewModel = DiaryViewModel()
+fun DiaryScreen(viewModel: DiaryViewModel = koinViewModel()) {
     val state by viewModel.state.collectAsState()
 
     Column(

@@ -1,9 +1,9 @@
 package com.balanceddietplanner.utils
 
-import com.balanceddietplanner.data.meal_list.entity.MealEntity
-import com.balanceddietplanner.data.model.MealDto
+import com.balanceddietplanner.data.meal_list.db.entity.MealEntity
+import com.balanceddietplanner.domain.model.Meal
 
-fun MealEntity.toDTO() = MealDto(
+fun MealEntity.toDomain() = Meal(
     id = id,
     name = name ?: "",
     ingredients = ingredients ?: "",

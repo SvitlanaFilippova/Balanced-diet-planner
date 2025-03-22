@@ -7,4 +7,7 @@ object Constants {
     const val STATS = "stats"
     const val PLAN = "plan"
     const val PROFILE = "profile"
+
+    //DI
+    const val BDP_DATABASE_NAME = "bdp_database.db"
 }

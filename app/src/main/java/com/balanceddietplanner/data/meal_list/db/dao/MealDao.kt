@@ -1,9 +1,9 @@
-package com.balanceddietplanner.data.meal_list.dao
+package com.balanceddietplanner.data.meal_list.db.dao
 
 import androidx.room.Dao
 import androidx.room.Insert
 import androidx.room.Query
-import com.balanceddietplanner.data.meal_list.entity.MealEntity
+import com.balanceddietplanner.data.meal_list.db.entity.MealEntity
 
 @Dao
 interface MealDao {

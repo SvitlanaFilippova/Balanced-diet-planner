@@ -1,4 +1,4 @@
-package com.balanceddietplanner.data.meal_list.entity
+package com.balanceddietplanner.data.meal_list.db.entity
 
 import androidx.room.ColumnInfo
 import androidx.room.Entity
